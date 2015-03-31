@@ -1,0 +1,1562 @@
+fileFormatVersion: 2
+guid: 9ea33cdee65d1cf4fb85b7f3f1aa3f6d
+timeCreated: 1425758080
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite_0
+    21300002: sprite_1
+    21300004: sprite_2
+    21300006: sprite_3
+    21300008: sprite_4
+    21300010: sprite_5
+    21300012: sprite_6
+    21300014: sprite_7
+    21300016: sprite_8
+    21300018: sprite_9
+    21300020: sprite_10
+    21300022: sprite_11
+    21300024: sprite_12
+    21300026: sprite_13
+    21300028: sprite_14
+    21300030: sprite_15
+    21300032: sprite_16
+    21300034: sprite_17
+    21300036: sprite_18
+    21300038: sprite_19
+    21300040: sprite_20
+    21300042: sprite_21
+    21300044: sprite_22
+    21300046: sprite_23
+    21300048: sprite_24
+    21300050: sprite_hit_01
+    21300052: sprite_hit_04
+    21300054: sprite_hit_05
+    21300056: sprite_hit_06
+    21300058: sprite_hit_07
+    21300060: sprite_30
+    21300062: sprite_31
+    21300064: sprite_32
+    21300066: sprite_33
+    21300068: sprite_34
+    21300070: sprite_35
+    21300072: sprite_36
+    21300074: sprite_37
+    21300076: sprite_38
+    21300078: sprite_39
+    21300080: sprite_40
+    21300082: haduken_attack_01
+    21300084: haduken_attack_02
+    21300086: haduken_attack_03
+    21300088: haduken_attack_04
+    21300090: haduken_attack_05
+    21300092: haduken_attack_06
+    21300094: sprite_47
+    21300096: sprite_48
+    21300098: sprite_49
+    21300100: sprite_50
+    21300102: sprite_51
+    21300104: sprite_52
+    21300106: flying_01
+    21300108: flying_02
+    21300110: flying_03
+    21300112: sprite_56
+    21300114: sprite_57
+    21300116: sprite_58
+    21300118: sprite_59
+    21300120: sprite_60
+    21300122: sprite_61
+    21300124: sprite_62
+    21300126: sprite_63
+    21300128: sprite_64
+    21300130: sprite_65
+    21300132: sprite_66
+    21300134: sprite_67
+    21300136: sprite_68
+    21300138: sprite_69
+    21300140: sprite_70
+    21300142: sprite_71
+    21300144: sprite_72
+    21300146: sprite_73
+    21300148: sprite_74
+    21300150: sprite_75
+    21300152: sprite_76
+    21300154: sprite_77
+    21300156: sprite_78
+    21300158: sprite_79
+    21300160: sprite_80
+    21300162: sprite_81
+    21300164: sprite_82
+    21300166: sprite_83
+    21300168: sprite_84
+    21300170: sprite_85
+    21300172: sprite_86
+    21300174: sprite_87
+    21300176: sprite_88
+    21300178: sprite_89
+    21300180: sprite_90
+    21300182: sprite_91
+    21300184: sprite_92
+    21300186: sprite_93
+    21300188: sprite_94
+    21300190: sprite_95
+    21300192: sprite_96
+    21300194: sprite_97
+    21300196: sprite_98
+    21300198: sprite_99
+    21300200: sprite_100
+    21300202: sprite_101
+    21300204: sprite_102
+    21300206: sprite_103
+    21300208: sprite_104
+    21300210: sprite_105
+    21300212: sprite_106
+    21300214: sprite_107
+    21300216: sprite_108
+    21300218: sprite_109
+    21300220: sprite_110
+    21300222: sprite_111
+    21300224: sprite_112
+    21300226: sprite_113
+    21300228: sprite_114
+    21300230: sprite_115
+    21300232: sprite_116
+    21300234: sprite_117
+    21300236: sprite_118
+    21300238: sprite_119
+    21300240: sprite_120
+    21300242: sprite_121
+    21300244: sprite_122
+    21300246: sprite_123
+    21300248: haduken_01
+    21300250: haduken_02
+    21300252: sprite_126
+    21300254: sprite_127
+    21300256: sprite_128
+    21300258: sprite_129
+    21300260: sprite_hit_02
+    21300262: sprite_hit_03
+    21300264: sprite_132
+    21300266: sprite_133
+    21300268: sprite_134
+    21300270: sprite_135
+    21300272: haduken_03
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 70
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sprite_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 975
+        width: 72
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 973
+        width: 58
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 973
+        width: 66
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 975
+        width: 40
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 975
+        width: 34
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 973
+        width: 40
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_6
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 973
+        width: 34
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 900
+        width: 42
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_8
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 899
+        width: 48
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_9
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 903
+        width: 50
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 899
+        width: 47
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 901
+        width: 49
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_12
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 920
+        width: 76
+        height: 39
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_13
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 903
+        width: 44
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_14
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 905
+        width: 50
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_15
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 907
+        width: 50
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_16
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 905
+        width: 48
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_17
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 901
+        width: 48
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_18
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 921
+        width: 76
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 819
+        width: 46
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_20
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 815
+        width: 46
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_21
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 815
+        width: 42
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_22
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 833
+        width: 46
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_23
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 829
+        width: 46
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_24
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 829
+        width: 138
+        height: 70
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_hit_01
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 733
+        width: 42
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_hit_04
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 733
+        width: 60
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_hit_05
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 735
+        width: 42
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_hit_06
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 735
+        width: 58
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_hit_07
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 735
+        width: 48
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_30
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 743
+        width: 150
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_31
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 745
+        width: 60
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_32
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 745
+        width: 42
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_33
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 745
+        width: 58
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_34
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 745
+        width: 48
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_35
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 661
+        width: 86
+        height: 54
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_36
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 657
+        width: 50
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_37
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 661
+        width: 78
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_38
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 669
+        width: 86
+        height: 54
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_39
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 665
+        width: 50
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_40
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 669
+        width: 78
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: haduken_attack_01
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 589
+        width: 46
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: haduken_attack_02
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 589
+        width: 38
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: haduken_attack_03
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 589
+        width: 58
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: haduken_attack_04
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 587
+        width: 56
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: haduken_attack_05
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 587
+        width: 54
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: haduken_attack_06
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 587
+        width: 50
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_47
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 585
+        width: 46
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_48
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 585
+        width: 38
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_49
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 585
+        width: 58
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_50
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 585
+        width: 54
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_51
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 585
+        width: 56
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_52
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 585
+        width: 50
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_01
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 493
+        width: 44
+        height: 74
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_02
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 493
+        width: 44
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flying_03
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 493
+        width: 44
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_56
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 493
+        width: 44
+        height: 74
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_57
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 493
+        width: 44
+        height: 74
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_58
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 493
+        width: 44
+        height: 74
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_59
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 409
+        width: 134
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_60
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 407
+        width: 134
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_61
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 407
+        width: 134
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_62
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 407
+        width: 134
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_63
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 405
+        width: 134
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_64
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 405
+        width: 134
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_65
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 341
+        width: 134
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_66
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 341
+        width: 134
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_67
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 341
+        width: 134
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_68
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 339
+        width: 134
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_69
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 339
+        width: 134
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_70
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 339
+        width: 134
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_71
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 265
+        width: 66
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_72
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 269
+        width: 66
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_73
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 265
+        width: 64
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_74
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 277
+        width: 28
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_75
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 265
+        width: 98
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_76
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 277
+        width: 24
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_77
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 269
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_78
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 263
+        width: 66
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_79
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 267
+        width: 66
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_80
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 263
+        width: 64
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_81
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 275
+        width: 28
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_82
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 263
+        width: 98
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_83
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 275
+        width: 24
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_84
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 267
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_85
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 201
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_86
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 223
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_87
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 213
+        width: 18
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_88
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 205
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_89
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 199
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_90
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 221
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_91
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 211
+        width: 12
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_92
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 197
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_93
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 199
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_94
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 221
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_95
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 211
+        width: 18
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_96
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 203
+        width: 18
+        height: 36
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_97
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 195
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_98
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 217
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_99
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 207
+        width: 12
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_100
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 193
+        width: 36
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_101
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 109
+        width: 48
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_102
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 109
+        width: 54
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_103
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 109
+        width: 52
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_104
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 109
+        width: 52
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_105
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 109
+        width: 46
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_106
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 109
+        width: 48
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_107
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 109
+        width: 48
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_108
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 105
+        width: 48
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_109
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 105
+        width: 54
+        height: 78
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_110
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 105
+        width: 52
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_111
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 105
+        width: 52
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_112
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 105
+        width: 46
+        height: 50
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_113
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 105
+        width: 48
+        height: 42
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_114
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 105
+        width: 48
+        height: 40
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_115
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 81
+        width: 22
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_116
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 83
+        width: 36
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_117
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 83
+        width: 24
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_118
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 83
+        width: 58
+        height: 10
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_119
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 67
+        width: 50
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_120
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 69
+        width: 72
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_121
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 67
+        width: 74
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_122
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 69
+        width: 44
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_123
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 69
+        width: 134
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: haduken_01
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 21
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: haduken_02
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 21
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_126
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 21
+        width: 224
+        height: 44
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_127
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 55
+        width: 38
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_128
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 55
+        width: 90
+        height: 12
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_129
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 25
+        width: 146
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_hit_02
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 733
+        width: 54
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_hit_03
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 733
+        width: 56
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_132
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 882
+        width: 76
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_133
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 842
+        width: 76
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_134
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 815
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sprite_135
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 815
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: haduken_03
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 18
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
