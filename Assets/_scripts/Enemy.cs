@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour {
 	public Transform targetInstatiatePower;
 
 	// Time to recharge 
-	public float chargeTime;
+	public float timeNeedsToRecharge;
 
 	private float rechargingTime = 0;
 
@@ -26,59 +26,68 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
+		
+		checkRecharging();
+		
+		searchPlayer();
+	}
 
+	void checkRecharging()
+	{
 		rechargingTime += Time.deltaTime;
-	
-		//Debug.Log (rechargingTime);
-
-		if (rechargingTime >= chargeTime)
+		
+		if (rechargingTime >= timeNeedsToRecharge)
 		{
 			fired = false;
-
+			
 			rechargingTime = 0;
 		}
+	}
 
+	void searchPlayer()
+	{
 		Vector2 rayCastPosition = new Vector2(transform.position.x, transform.position.y + .5f);
-
+		
 		// Raycast looking...
 		RaycastHit2D hit = Physics2D.Raycast(
-									rayCastPosition, 
-									(isFacingRight) ? Vector2.right : -Vector2.right, 
-									lookupTo);
-
+			rayCastPosition, 
+			(isFacingRight) ? Vector2.right : -Vector2.right, 
+			lookupTo);
+		
 		Debug.DrawRay(rayCastPosition, (isFacingRight) ? Vector2.right : -Vector2.right, Color.red);
-
+		
+		// Hit detected
 		if (hit.collider != null) {
-
-			//Debug.Log("Raycast have hit anybody");
-
+			
+			// Hit on Player
 			if (hit.collider.gameObject.tag == "Player")
 			{
-				//Debug.Log("Raycast have hit the Player");
-
 				// Distance from my position and hit position 
 				float distanceHit = Mathf.Abs(hit.point.y - transform.position.y);
-
+				
 				// Distante of hit is less or equal to distance which i see
 				if (distanceHit <= lookupTo)
 				{
 					// If not yet fired or recharging
 					if (!fired)
 					{
-						// Set direction of power
-						power.GetComponent<HadukenEnemy>().direction = targetInstatiatePower.transform.localScale.x;
-
-						Instantiate(power, targetInstatiatePower.position, targetInstatiatePower.rotation);
-					
-						//Debug.Log("Raycast have hit the Player");
-
-						fired = true;
-
-						Flip ();
+						shot();
 					}
 				}
 			}
 		}
+	}
+
+	void shot()
+	{
+		// Set direction of power
+		power.GetComponent<HadukenEnemy>().direction = targetInstatiatePower.transform.localScale.x;
+		
+		Instantiate(power, targetInstatiatePower.position, targetInstatiatePower.rotation);
+		
+		fired = true;
+		
+		Flip ();
 	}
 
 	void Flip()

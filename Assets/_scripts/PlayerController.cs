@@ -31,8 +31,58 @@ public class PlayerController : MonoBehaviour {
 
 	private void FixedUpdate()
 	{
-		m_Grounded = false;
+		checkGrounded();
+	
+		#if !UNITY_ANDROID && !UNITY_IPHONE
 
+		movement = Input.GetAxis("Horizontal");
+
+		#endif
+
+		Move (movement);
+	}
+
+	void Update () 
+	{
+		#if UNITY_ANDROID
+		
+		if(Input.GetKeyDown(KeyCode.Escape))
+		{
+			// Get the unity player activity
+			AndroidJavaObject activity = 
+				new AndroidJavaClass("com.unity3d.player.UnityPlayer")
+					.GetStatic<AndroidJavaObject>("currentActivity");
+			
+			// call activity's boolean moveTaskToBack(boolean nonRoot) function
+			// documentation: http://developer.android.com/reference/android/app/Activity.html#moveTaskToBack(boolean)
+			activity.Call<bool>("moveTaskToBack", true);
+		}
+		
+		#endif
+
+		if (Input.GetKeyDown(KeyCode.Z))
+		{
+			GetComponent<Animator>().SetTrigger("hiting");
+		} 
+		else if (Input.GetKeyDown(KeyCode.X)) 
+		{
+			Attack("hadukenEvent");
+		} 
+		else if (Input.GetButtonDown("Jump") && m_Grounded)
+		{
+			Jump();
+		}
+
+		GetComponent<Animator>().SetBool("flying", m_Flying);
+	}
+
+	/*
+	 * Check if the Player is in contact with other thing
+	 */
+	void checkGrounded()
+	{		
+		m_Grounded = false;
+		
 		// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 		// This can be done using layers instead but Sample Assets will not overwrite your project settings.
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
@@ -43,72 +93,27 @@ public class PlayerController : MonoBehaviour {
 				m_Flying = false;
 			}
 		}
-	
-	#if UNITY_ANDROID
-		if(Input.GetKeyDown(KeyCode.Escape))
-		{
-			// Get the unity player activity
-			AndroidJavaObject activity = 
-				new AndroidJavaClass("com.unity3d.player.UnityPlayer")
-					.GetStatic<AndroidJavaObject>("currentActivity");
-			
-			// call activity's boolean moveTaskToBack(boolean nonRoot) function
-			// documentation: http://developer.android.com/reference/android/app/Activity.html#moveTaskToBack(boolean)
-				activity.Call<bool>("moveTaskToBack", true);
-		}
-
-	#endif
-	
-	#if !UNITY_ANDROID && !UNITY_IPHONE
-
-		//float move = Input.GetAxis("Horizontal");
-		//Move (move);
-
-		movement = Input.GetAxis("Horizontal");
-
-	#endif
-
-		Move (movement);
 	}
 
-	void Update () 
+	/**
+	 * Moviment Event called by UI
+	 */
+	public void movimentEvent (float moviment)
 	{
-		if (Input.GetKeyDown(KeyCode.Z))
-		{
-			GetComponent<Animator>().SetTrigger("hiting");
-		
-		} else if (Input.GetKeyDown(KeyCode.X)) 
-		{
-			//GetComponent<Animator>().SetTrigger("haduken");
-			Attack("hadukenEvent");
-
-		} else if (Input.GetButtonDown("Jump") && m_Grounded) {
-
-			Jump();
-		}
-
-		GetComponent<Animator>().SetBool("flying", m_Flying);
+		movement = moviment;
 	}
 
 	/*
-	 * Handling UI Events
+	 * Attack Event called by UI
 	 */
-
-	public void movimentEvent (float moviment)
-	{
-		//Move (moviment);
-		movement = moviment;
-	}
-	
 	public void attackEvent (string attackName) 
 	{
 		Attack(attackName);
 	}
 
 	/*
-	 * Handling Player's Actions
+	 * Handling Player's Jump Action
 	 */
-
 	public void Jump () {
 
 		if (m_Grounded) 
@@ -120,6 +125,9 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
+	/*
+	 * Move the player and configure de speed in Animator
+	 */
 	public void Move(float moviment)
 	{
 		m_Rigidbody2D.velocity = new Vector2 (moviment * maxSpeed, m_Rigidbody2D.velocity.y);
@@ -136,6 +144,9 @@ public class PlayerController : MonoBehaviour {
 		GetComponent<Animator>().SetFloat("speed", Mathf.Abs(moviment));
 	}
 
+	/*
+	 * Flip Player's localScale.x 
+	 */ 
 	void Flip()
 	{
 		// Invert the value of facingRight
@@ -146,15 +157,22 @@ public class PlayerController : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-	
+
+	/*
+	 * Player's attack command
+	 */
 	public void Attack (string attackName) {
 
+		// Instantiate prefab haduken.
+		// This condition will be called by Animation 
 		if (attackName == "haduken")
 		{
 			Instantiate(haduken, targetInstatiatePower.position, targetInstatiatePower.rotation);
 			
 			haduken.AddForce(new Vector2(10, 0));
 		} 
+
+		// Attack event called by UI button
 		else if (attackName == "hadukenEvent")
 		{
 			GetComponent<Animator>().SetTrigger("haduken");
@@ -163,10 +181,6 @@ public class PlayerController : MonoBehaviour {
 		else if (attackName == "hiting")
 		{
 			GetComponent<Animator>().SetTrigger("hiting");
-		}
-		else if (attackName == "hiting")
-		{
-			Jump ();
 		}
 	}
 }

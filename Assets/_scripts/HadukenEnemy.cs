@@ -18,9 +18,6 @@ public class HadukenEnemy : MonoBehaviour {
 	}
 
 	void Update () {
-
-
-
 	}
 
 	void Flip () {
