@@ -20,9 +20,9 @@ public class Enemy : MonoBehaviour {
 	// Time to recharge 
 	public float timeNeedsToRecharge;
 
-	private float rechargingTime = 0;
+	public float rechargingTime = 0;
 
-	private bool fired = false;
+	private bool recharging = false;
 
 	void Start() {
 
@@ -101,11 +101,14 @@ public class Enemy : MonoBehaviour {
 	{
 		rechargingTime += Time.deltaTime;
 		
-		if (rechargingTime >= timeNeedsToRecharge)
+		if (rechargingTime <= timeNeedsToRecharge)
 		{
-			fired = false;
-			
+			recharging = true;
+		} 
+		else 
+		{
 			rechargingTime = 0;
+			recharging = false;
 		}
 	}
 
@@ -144,10 +147,12 @@ public class Enemy : MonoBehaviour {
 				// Distante of hit is less or equal to distance which i can see
 				if (distanceHit <= lookupTo)
 				{
-					// If not yet fired or recharging
-					if (!fired)
+					// If not recharging
+					if (!recharging)
 					{
 						shot();
+
+						recharging = true;
 					}
 				}
 			}
@@ -163,8 +168,6 @@ public class Enemy : MonoBehaviour {
 		power.GetComponent<HadukenEnemy>().direction = targetInstatiatePower.transform.localScale.x;
 		
 		Instantiate(power, targetInstatiatePower.position, targetInstatiatePower.rotation);
-		
-		fired = true;
 	}
 
 	void Flip()
