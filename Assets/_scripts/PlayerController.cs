@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour {
 	public bool isFacingRight = true;
 
 	public float maxSpeed = 7.0f;
-	[SerializeField] private float m_JumpForce = 400f;  
+	[SerializeField] private float m_JumpForce = 450f;  
 	public Rigidbody2D haduken;
 	
 	public Transform targetInstatiatePower;

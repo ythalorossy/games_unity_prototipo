@@ -21,6 +21,8 @@ public class HadukenMove : MonoBehaviour {
 		if (direction < 0) {
 			Flip ();
 		}
+
+		Destroy(gameObject, 3f);
 	}
 	
 	// Update is called once per frame
