@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Update () 
 	{
+
 		#if UNITY_ANDROID
 		
 		if(Input.GetKeyDown(KeyCode.Escape))

@@ -5,7 +5,9 @@ public class HadukenEnemy : MonoBehaviour {
 
 	public float speed = 4f;
 
-	public float direction = 1;
+	public float direction = 1f;
+
+	public float damage = 10f;
 
 	void Start()
 	{
@@ -26,6 +28,18 @@ public class HadukenEnemy : MonoBehaviour {
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
+	}
+
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		//Debug.Log (other.tag);
+		if (other.tag == "Player") 
+		{
+			other.GetComponent<PlayerHealth>().changeHealth(-damage);
+			
+			Destroy(this.gameObject);
+		}
+
 	}
 
 }

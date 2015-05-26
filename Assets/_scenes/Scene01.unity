@@ -4419,7 +4419,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 442174, guid: a51a94f74a56a544cb7cbd3ad587e42c, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 11443340, guid: a51a94f74a56a544cb7cbd3ad587e42c, type: 2}
       propertyPath: timeNeedsToRecharge
@@ -11339,7 +11339,7 @@ Transform:
   - {fileID: 2014276974}
   - {fileID: 1296972364}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
 --- !u!4 &1412104556 stripped
 Transform:
   m_PrefabParentObject: {fileID: 427580, guid: 73afeab868eeda14cbb134553f37e9d9, type: 2}
@@ -11816,7 +11816,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Sprite: {fileID: 21300240, guid: dd7e1427d32705a4a83046d7c520043f, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -11842,7 +11842,7 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: 1, y: .5}
   m_AnchorMax: {x: 1, y: .5}
-  m_AnchoredPosition: {x: -83, y: -261}
+  m_AnchoredPosition: {x: -83, y: -169}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: .5, y: .5}
 --- !u!4 &1509604374 stripped
@@ -13901,7 +13901,7 @@ Canvas:
   m_GameObject: {fileID: 1794334171}
   m_Enabled: 1
   serializedVersion: 2
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 790470404}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -15899,11 +15899,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 489960, guid: 525aadbe4eae2384a90f22743cbea7cb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 489960, guid: 525aadbe4eae2384a90f22743cbea7cb, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 489960, guid: 525aadbe4eae2384a90f22743cbea7cb, type: 2}
       propertyPath: m_LocalPosition.z
@@ -15927,7 +15927,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 489960, guid: 525aadbe4eae2384a90f22743cbea7cb, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 525aadbe4eae2384a90f22743cbea7cb, type: 2}
