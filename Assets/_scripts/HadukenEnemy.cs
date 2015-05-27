@@ -7,7 +7,7 @@ public class HadukenEnemy : MonoBehaviour {
 
 	public float direction = 1f;
 
-	public float damage = 10f;
+	public int damage = 10;
 
 	void Start()
 	{
@@ -35,7 +35,7 @@ public class HadukenEnemy : MonoBehaviour {
 		//Debug.Log (other.tag);
 		if (other.tag == "Player") 
 		{
-			other.GetComponent<PlayerHealth>().changeHealth(-damage);
+			other.GetComponent<PlayerHealth>().TakeDamage(damage);
 			
 			Destroy(this.gameObject);
 		}
