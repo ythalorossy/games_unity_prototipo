@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Locked : MonoBehaviour {
+public class Lock : MonoBehaviour {
+
+	public GameObject objectLocked;
 
 	void OnTriggerEnter2D(Collider2D other) {
 		
@@ -9,15 +11,11 @@ public class Locked : MonoBehaviour {
 		{
 			if (other.GetComponent<ItemManager>().isYellowKeyPicked())
 			{
-				Debug.Log("Player has picked yellow key");
-
-				GameObject.Find("bridge").GetComponent<MoveBridge>().moveTo(3);
+				objectLocked.GetComponent<IUnlockable>().unlock();
 
 				Destroy(this.gameObject);
 			}
 		}
-		
+
 	}
-
-
 }
