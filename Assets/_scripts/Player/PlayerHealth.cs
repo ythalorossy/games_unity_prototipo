@@ -17,8 +17,8 @@ public class PlayerHealth : MonoBehaviour
 //	AudioSource playerAudio;                                    // Reference to the AudioSource component.
 //	PlayerMovement playerMovement;                              // Reference to the player's movement.
 //	PlayerShooting playerShooting;                              // Reference to the PlayerShooting script.
-	bool isDead;                                                // Whether the player is dead.
-	bool damaged;                                               // True when the player gets damaged.
+//	bool isDead;                                                // Whether the player is dead.
+//	bool damaged;                                               // True when the player gets damaged.
 	
 	
 	void Awake ()
@@ -50,14 +50,14 @@ public class PlayerHealth : MonoBehaviour
 //		}
 		
 		// Reset the damaged flag.
-		damaged = false;
+//		damaged = false;
 	}
 	
 	
 	public void TakeDamage (int amount)
 	{
 		// Set the damaged flag so the screen will flash.
-		damaged = true;
+//		damaged = true;
 		
 		// Reduce the current health by the damage amount.
 		currentHealth -= amount;
@@ -69,7 +69,7 @@ public class PlayerHealth : MonoBehaviour
 //		playerAudio.Play ();
 		
 		// If the player has lost all it's health and the death flag hasn't been set yet...
-		if(currentHealth <= 0 && !isDead)
+		if(currentHealth <= 0 /* && !isDead */)
 		{
 			// ... it should die.
 			Death ();
@@ -80,7 +80,7 @@ public class PlayerHealth : MonoBehaviour
 	void Death ()
 	{
 		// Set the death flag so this function won't be called again.
-		isDead = true;
+//		isDead = true;
 		
 		// Turn off any remaining shooting effects.
 //		playerShooting.DisableEffects ();
