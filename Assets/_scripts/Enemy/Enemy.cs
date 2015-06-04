@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour {
 	public Transform targetInstatiatePower;
 
 
-	public bool needRecharge = false;				// Needs recharge?
+	private bool needRecharge = false;				// Needs recharge?
 
 	public float timeNeedsToRecharge;				// Time to recharge
 
@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		
+
 		checkNeedsRecharge();
 		
 		searchPlayer();
@@ -120,10 +120,10 @@ public class Enemy : MonoBehaviour {
 	 */
 	void searchPlayer()
 	{
-		Vector2 rayCastPosition = new Vector2(transform.position.x, transform.position.y + .5f);
+		Vector2 rayCastPosition = new Vector2(transform.position.x + ((isFacingRight) ? .5f : -.5f), transform.position.y + .5f);
 
 		Debug.DrawLine(//transform.position,
-		               new Vector2(transform.position.x, transform.position.y + .5f),
+		               new Vector2(transform.position.x + .5f, transform.position.y + .5f),
 		               //new Vector2( (isFacingRight) ? Vector2.right : -Vector2.right), 
 		               new Vector2(
 								transform.position.x + ((isFacingRight) ? lookupTo : -lookupTo), 

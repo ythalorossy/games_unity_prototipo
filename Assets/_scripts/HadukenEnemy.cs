@@ -3,11 +3,11 @@ using System.Collections;
 
 public class HadukenEnemy : MonoBehaviour {
 
-	public float speed = 4f;
+	public float speed = 4.0f;
 
-	public float direction = 1f;
+	public float direction = 1.0f;
 
-	public int damage = 10;
+	public float damage = 10.0f;
 
 	void Start()
 	{
@@ -32,14 +32,14 @@ public class HadukenEnemy : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		//Debug.Log (other.tag);
+		//Debug.Log (other.tag + "" + other.name);
 		if (other.tag == "Player") 
 		{
 			other.GetComponent<PlayerHealth>().TakeDamage(damage);
 			
-			Destroy(this.gameObject);
 		}
 
+		Destroy(this.gameObject);
 	}
 
 }
