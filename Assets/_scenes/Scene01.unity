@@ -4540,30 +4540,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 438600, guid: a51a94f74a56a544cb7cbd3ad587e42c, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: .5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11443340, guid: a51a94f74a56a544cb7cbd3ad587e42c, type: 2}
-      propertyPath: isFacingRight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11443340, guid: a51a94f74a56a544cb7cbd3ad587e42c, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11443340, guid: a51a94f74a56a544cb7cbd3ad587e42c, type: 2}
-      propertyPath: timeNeedsToRecharge
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11470354, guid: a51a94f74a56a544cb7cbd3ad587e42c, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5017368, guid: a51a94f74a56a544cb7cbd3ad587e42c, type: 2}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a51a94f74a56a544cb7cbd3ad587e42c, type: 2}
   m_IsPrefabParent: 0
